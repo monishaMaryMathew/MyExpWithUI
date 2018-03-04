@@ -1,0 +1,28 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="handlers" type="com.example.monisha.myexpwithui.model.Handlers"/>
+        <variable name="user" type="com.example.monisha.myexpwithui.model.User"/>
+    </data>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blue"
+        tools:context="com.example.monisha.myexpwithui.fragment.ContentFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/albumRecyclervieLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical">
+
+            </android.support.v7.widget.RecyclerView>
+        </RelativeLayout>
+
+    </FrameLayout>
+</layout>
